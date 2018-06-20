@@ -1,0 +1,23 @@
+h5{
+    font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+}
+ .atag:hover{
+    text-decoration: none;
+    color:black;
+}
+ .atag{
+
+ }
+
+ .summary,li{
+ font-family: 'Crimson Text', serif;
+font-size: 19px;
+ }
+
+ h3,h2{
+     font-family: 'Concert One', cursive;
+ }
+.bgColor{
+     background-color:#e0e0e0 ;
+ }

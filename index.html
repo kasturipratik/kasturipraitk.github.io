@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -13,7 +14,7 @@
 
 <div class="container ">
     <!--navigation bar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
             <a class="navbar-brand fontOne " href="index.html">Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -67,7 +68,7 @@
                     <div class=" col-sm-12 col-md-4" align="center" >
                         <h5 class="fontOne"> <a href="https://github.com/kasturipratik" class="atag text-success" target="_blank">GitHub</a></h5>
                     </div>
-                    <div class=" col-sm-12 col-md-4"  align="center">
+                    <div class=" col-sm-12 col-md-4"  align="center"  id="edu">
                         <h5 class="fontOne"> <a href="https://www.linkedin.com/in/pratikparajuli" class="atag text-success " target="_blank">LinkedIn</a></h5>
                     </div>
                 </div>
@@ -80,7 +81,7 @@
 
 
             <!--start of education------------------------>
-                <div class=" row" id="edu">
+                <div class=" row">
                     <div class="col-sm-12 col-md-3 bg-light p-3" align="center">
                         <h3 class="fontOne">Education</h3>
                     </div>
@@ -121,7 +122,7 @@
                             <div class="col-sm-4">
                                 <h5 class="fontOne">Baltimore, MD
                                 </h5>
-                                <p  class="summary">   Dec 2015
+                                <p  class="summary" id="skill">   Dec 2015
                                 </p>
                             </div>
                         </div>
@@ -129,7 +130,7 @@
                 </div>
             <div class="clearfix"><hr></div>
         <!--start of project ------------------------------>
-                <div class=" row" id="skill">
+                <div class=" row" >
                     <div class="col-sm-12 col-md-3 bg-light p-3" align="center" >
                         <h3>Skills</h3>
 
@@ -140,17 +141,14 @@
                             <h5><span class="fontOne">Software : </span></h5><p class="pl-4"> Intellij, Git, GitHub, Eclipse, Oracle SQL Developer</p>
                             <h5><span class="fontOne">Design and Graphics : </span></h5> <p class="pl-4">HTML, CSS, BootStrap, Photoshop, Dreamweaver</p>
                             <h5><span class="fontOne">Musical Instruments : </span></h5> <p class="pl-4">Guitar, Drum</p>
-                            <h5><span class="fontOne"> Multilingual: </span></h5> <p class="pl-4"> English, Nepali, Hindi, Urdu</p>
-
-
-
+                            <h5 id="project"><span class="fontOne"> Multilingual: </span></h5> <p class="pl-4"> English, Nepali, Hindi, Urdu</p>
 
                     </div>
 
                 </div>
-            <div class="clearfix"><hr></div>
+            <div><hr></div>
         <!--Start of projects------------------------------------------->
-            <div class=" row" id="project">
+            <div class=" row" >
                 <div class="col-sm-12 col-md-3 bg-light p-3" align="center" >
                     <h3>Projects</h3>
 
@@ -162,7 +160,7 @@
                     allows small businesses to list jobs and applicants can view the jobs and apply with a single button </p>
 
                     <h5><span class="fontOne">Zork Application </span></h5>
-                    <p class="pl-4">
+                    <p class="pl-4" id="work">
                     Zork is developed using Core Java with Object Oriented Methodology. It is a text based game for single user to interact and navigate
                         inside a house and search for hidden treasure.
                     </p>
@@ -171,9 +169,9 @@
                 </div>
 
             </div>
-            <div class="clearfix"><hr></div>
+            <div ><hr></div>
          <!--Start of Work Experience---------------------------------------->
-            <div class=" row mb-4 " id="work">
+            <div class=" row mb-4 ">
 
                 <div class="col-sm-12 col-md-3 bg-light p-3" align="center">
                     <h3>Work Experience</h3>

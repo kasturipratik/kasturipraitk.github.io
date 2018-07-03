@@ -18,3 +18,20 @@ font-size: 19px;
 .bgColor{
      background-color:#e0e0e0 ;
  }
+a .projectLinks:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.projectLinks{
+    color: black;
+}
+.hoverOver:hover{
+    background-color: saddlebrown;
+
+}
+
+
+a:hover{
+    text-decoration: none;
+}
